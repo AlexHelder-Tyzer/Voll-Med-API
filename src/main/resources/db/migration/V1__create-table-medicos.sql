@@ -9,6 +9,8 @@ create table medicos(
     complemento varchar(100),
     numero varchar(20),
     ciudad varchar(100) not null,
+    telefono varchar(20) not null,
+    activo tinyint not null,
 
     primary key(id)
 );
